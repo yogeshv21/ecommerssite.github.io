@@ -1,0 +1,1005 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    padding: 20px 60px;
+    min-height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+#main #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+
+#nav #menu{
+    display: none;
+}
+
+#nav img{
+    transform: rotate(15deg);
+    height: 25px;
+}
+
+#nav #links{
+    display: flex;
+    align-items: center;
+}
+
+#nav #links a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+#nav #icons i{
+    color: white;
+    margin-left: 30px;
+}
+
+#main #wraper1{
+    width: 100%;
+    height: calc(100vh - 80px);
+    /* background-color: brown; */
+}
+
+#wraper1{
+    display: flex;
+}
+
+#wraper1 #sec1{
+    position: relative;
+    height: 100%;
+    width: 45%;
+    /* background-color: crimson; */
+}
+
+#main #wraper1 #sec1 #rtxt1{
+    display: none;
+}
+
+#sec1 #txt1{
+    position: absolute;
+    top: 50%;
+    color: white;
+    /* margin-top: 50%;
+    margin-left: 50%; */
+    transform: translate(0%,-50%);
+}
+
+#txt1 #mainring{
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    transform: rotate(-10deg);
+    height: 100px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 153, 0) ;
+}
+
+
+#txt1 #p1{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#txt1 h1{
+    font-size: 90px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#txt1 #email {
+    display: flex;
+    height: 50px;
+    width: 360px;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-top: 50px;
+}
+
+#email input{
+    background-color: transparent;
+    height: 100%;
+    width: 80%;
+    border-color: transparent;
+    padding: 20px 30px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+#txt1 #email button{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    border-color: transparent;
+    margin-top: 2.5px;
+    margin-left: 28px;
+}
+
+#email button i{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#txt1 #txt1btm{
+    display: flex;
+    margin-top: 60px;
+}
+
+#txt1btm .btm{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+#txt1btm #btm1{
+    border-right: 2px solid white;
+}
+
+#txt1btm #btm2{
+    margin-left: 25px;
+}
+
+#txt1btm .btm h4{
+    font-size: 30px;
+}
+
+#txt1btm .btm p{
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+#wraper1 #sec2{
+    position: relative;
+    height: 100%;
+    width: 55%;
+    /* background-color: rgb(140, 20, 220); */
+}
+
+#sec2 #imgs {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+    width: 80%;
+    /* background-color: violet; */
+}
+
+#sec2 #imgs #imglft{
+    height: 100%;
+    width: 60%;
+    background-image: url(tee3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px 200px ;
+}
+
+#sec2 #imgs #imgright{
+    height: 100%;
+    width:  34%;
+    /* background-color: saddlebrown; */
+}
+
+#imgs #imgright #imgtop{
+    height: 50%;
+    margin-top: 20px;
+    width: 100%;
+    background-image: url(tee4.jpg);
+    border-radius: 200px 200px 0px 0px  ;
+    background-size: cover;
+    background-position: center;
+}
+
+#imgs #imgright #imgbottom{
+    height: 40%;
+    width: 100%;
+    background-image: url(tee6.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+#wraper1 #gola{
+    display: none;
+}
+
+#wraper1 #gender{
+    display: none;
+}
+
+#main2{
+    min-height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#main2 #top{
+    background-image: url(https://cdn.shopify.com/s/files/1/2252/3393/files/Blvck08-3-Desktop.jpg?v=1632508818);
+    background-size: cover;
+    background-position: center;
+}
+
+#main2 #top  #overlay{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    /* background-color: #B7B7B5; */
+  
+}
+
+#top #overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+#top h1{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+#main2 #top #rh1{
+    display: none;
+}
+
+#top button{
+    margin: 60px 50px 0px 50px;
+    padding: 10px 20px;
+    border-color: transparent;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 50px;
+}
+
+#main2 #bottom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh ;
+    width: 100%;
+    background-color: white;
+}
+
+#bottom #ring{
+    position: absolute;
+    top: 45px;
+    left: 57.5%;
+    transform: rotate(-15deg);
+    height: 55px;
+    width: 110px;
+    border-radius: 50%;
+    border: 2px solid #EE8F01;
+   background-color: transparent;
+}
+
+#bottom h2{
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+#bottom #cards{
+    display: flex;
+    justify-content: space-evenly;
+    height: 65%;
+    width: 100%;
+    /* background-color: violet; */
+    margin-top: 50px;
+}
+
+#cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    /* background-color: tomato; */
+}
+
+.card p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.card .img{
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+
+
+#cards #img1{
+    background-image: url(tee2.jpg);
+}
+
+#cards #img2{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/27/ff/27ffbf46e3a18838b6b45fa08ea34d5e7322b3e9.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]);
+}
+
+#cards #img3{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/ce/12/ce12ad964ef3fe9cabbfb8428f361bfd073c0ab8.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]);
+}
+
+#cards #img4{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/76/34/7634553feccb847de18ecb4fd9562fd0de070396.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]);
+    background-position-y: bottom;
+}
+
+#cards #img5{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/24/59/2459e1547365a4f12fa56013c3936bf7bfbb061e.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]);
+}
+
+#cards #img6{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/de/da/deda43e6d697c44b8fe73b638b10a467e3eebe5f.jpg],origin[dam],category[men_hoodiessweatshirts_hoodies],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]);
+}
+
+#bottom #cards2{
+    display: none;
+}
+
+#main3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+#main3 #cards3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 100%;
+    /* background-color: violet; */
+    margin-top: 50px;
+    background-color: white;
+}
+
+#cards3 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 15%;
+    /* background-color: tomato; */
+}
+
+.card p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.card .img{
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+
+#cards3 #img1{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F15%2Fd2%2F15d248e4972953b4cdfb1899511dd5e63fafba18.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]);
+}
+
+#cards3 #img2{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2Fd5%2Facd5ad4cd72435b0c6b58e5771d47e8fb7178410.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+
+#cards3 #img3{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3c%2Fae%2F3caee05bd616c2a5a25801cf52acce9adfa11cd8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+
+#cards3 #img4{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F73%2F1d%2F731d3a27d5983f9eb6216e8e69569c9186253db3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+}
+
+#cards3 #img5{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=source[/24/59/2459e1547365a4f12fa56013c3936bf7bfbb061e.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[y],hmver[2]&call=url[file:/product/main]);
+}
+
+#cards3 #img6{
+    background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F39%2Fa9%2F39a98dad4fb0f6ece7ea6d08350ebc1491718a93.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]);
+    background-position-y: top;
+}
+
+#main3 #main3btm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color:#B6B6B6;
+}
+
+#main3btm #cards{
+    margin-top: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 80%;
+    background-color: white;
+}
+
+#main3btm #cards img{
+    height: 350px;
+    border-radius: 200px;
+}
+
+#main3btm #txt{
+    position: relative;
+    text-align: center;
+    height: 30% ;
+    width: 80%;
+    background-color: white;
+}
+
+#txt #ring{
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    left: 25%;
+    top: 22%;
+    background-color: #EE8F01;
+}
+
+#txt h1{
+    margin-top: 10px;
+    font-size: 55px;
+    font-weight: 400;
+    font-family: ogg;
+    letter-spacing: 3px;
+}
+
+#txt p{
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+#txt button{
+    margin-top: 30px;
+    font-size: 13px;
+    padding: 15px 30px;
+    border-color: transparent;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}
+
+#main3 #mag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    background-color: #B6B6B6;
+}
+
+#main3 #mag #txt{
+    margin-bottom: 70px;
+    text-align: center;
+    color: white;
+}
+
+#mag #txt h1{
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+#mag #txt p{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#mag #txt h3{
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+#mag #txt #line{
+    height: 2px;
+    margin-left: 25px;
+    width: 82%;
+    background-color: #EE8F01;
+    margin-top: 5px;
+}
+
+#main3 #mag #cards{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 70%;
+    /* background-color: violet; */
+}
+
+#mag #cards .card{
+    height: 100%;
+    width: 40vh;
+    background-color: white;
+    color: black;
+}
+
+#mag #cards .card  img{
+    height: 201px;
+}
+
+#cards .card p{
+    font-weight: 600;
+    font-weight: 400;
+}
+
+#cards .card h4{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#cards .card h6{
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+#cards #c2 h6{
+    margin-top: 50px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    width: 100%;
+}
+
+#about #icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 60px;
+}
+
+#about #icons i{
+    font-size: 30px;
+}
+
+#about #para{
+    text-align: center;
+}
+
+#about #para #p2{
+    display: none;
+}
+
+#about #para h4{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#about h1{
+    margin-top: 50px;
+    font-family: ogg;
+    letter-spacing: 5pc;
+    margin-left: 60px;
+}
+
+@media(max-width: 600px){
+    
+    #main{
+        width: 100%;
+        padding: 8px 13px;
+    }
+
+    #main #nav img{
+        margin-left: 60px;
+    }
+
+    #main #nav #menu{
+        display: initial;
+        color: white;
+    }
+    
+    #main #nav #links{
+        display: none;
+    }
+    
+    #main #nav #icons i{
+        margin-left: 10px;
+    }
+
+    #main #wraper1{
+        flex-direction: column;
+    }
+
+    #main #wraper1 #sec1{
+        width: 100%;
+        height: 40%;
+        /* background-color: tomato; */
+    }
+
+    #main #wraper1 #sec1 #rtxt1{
+        display: initial;
+        position: absolute;
+        margin-top: 50px;
+        color: white;
+        margin-left: 0px;
+    }
+
+    #sec1 #rtxt1 #ring{
+        position: absolute;
+        height: 80px;
+        width: 170px;
+        border-radius: 50%;
+        right: -6%;
+        bottom: 33%;
+        border: 2px solid rgb(255, 153, 0);
+        background-color: transparent;
+        transform: rotate(-15deg);
+    }
+
+    #sec1 #rtxt1 h1{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: 4px
+    }
+
+    #sec1 #rtxt1 p{
+        font-size: 13px;
+        margin-top: 40px;
+        line-height: 15px;
+        font-weight: 300;
+        color: grey;
+    }
+
+    #wraper1 #sec1 #txt1{
+        display: none;
+    }
+
+    #main #wraper1 #sec2{
+        width: 100%;
+    }
+
+    #wraper1 #sec2 #imgs {
+        position: initial;
+        transform: initial;
+        margin-left: initial;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #imgs #imgright #imgbottom{
+        height: 32%;
+    }
+
+     #wraper1 #gola{
+        position: absolute;
+        bottom: 25px;
+        display: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: #B7B7B5;
+    }
+
+    #wraper1 #gender{
+        position: absolute;
+        display: flex;
+        color: white;
+        bottom: 25px;
+        right: 20px;
+    }
+
+    #gender .gen{
+        display: flex;
+        height: 30px;
+        width: 70px;
+        border-radius: 50px;
+        background-color: transparent;
+        border: 1px solid rgb(255, 153, 0);
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+
+    #main2 #top{
+        height: 36vh;
+        background-image: url(https://cdn.shopify.com/s/files/1/2252/3393/files/Blvck08-3-Desktop.jpg?v=1632508818);
+        background-size: cover;
+    }
+
+    #main2 #top #h1{
+        display: none;
+       
+    }
+
+    #main2 #top #rh1{
+        display: initial;
+        font-size: 29px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    #main2 #top button{
+        padding: 6px 15px;
+        margin: 40px 10px 20px 10px;
+        font-size: 10px;
+    }
+
+    #bottom #ring{
+        height: 40px;
+        left: initial;
+        right: 13%;
+        width: 90px;
+    }
+
+    #main2 #bottom h2{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    #main2 #bottom #cards #res{
+        display: none;
+    }
+
+    #main2 #bottom #cards{
+        height: 33%;
+    }
+
+    #bottom #cards .card{
+        height: 100%;
+        width: 100%;
+    }
+
+    #cards .card p{
+        font-size: 11px;
+    }
+
+    #bottom #cards2{
+        display: flex;
+        justify-content: space-evenly;
+        height: 65%;
+        width: 100%;
+        /* background-color: violet; */
+        margin-top: 50px;
+    }
+    
+    #cards2 .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 15%;
+        /* background-color: tomato; */
+    }
+    
+    .card p{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    
+    .card .img{
+        height: 80%;
+        width: 80%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 100px;
+    }
+    
+    
+    #cards2 #img2{
+        background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2Fd5%2Facd5ad4cd72435b0c6b58e5771d47e8fb7178410.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+    }
+    
+    #cards2 #img3{
+        background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3c%2Fae%2F3caee05bd616c2a5a25801cf52acce9adfa11cd8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+    }
+    
+    #cards2 #img4{
+        background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F73%2F1d%2F731d3a27d5983f9eb6216e8e69569c9186253db3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]);
+    }
+    
+    #cards2 #img6{
+        background-image: url(https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F39%2Fa9%2F39a98dad4fb0f6ece7ea6d08350ebc1491718a93.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]);
+        background-position-y: top;
+    }
+    
+    #bottom #cards2{
+        height: 33%;
+    }
+
+    #bottom #cards2 .card{
+        height: 100%;
+        width: 100%;
+    }
+
+    #cards2 .card p{
+        font-size: 11px;
+    }
+
+    #bottom #cards2 #res{
+        display: none;
+    }
+
+    #main3 #cards3{
+        display: none;
+    }
+
+    #main3 #main3btm {
+        height: 49vh;
+    }
+
+    #main3btm #cards{
+        height: 25vh;
+        width: 90%;
+    }
+
+    #main3btm #txt{
+        width: 90%;
+        height: 20vh;
+    }
+
+    #main3btm #txt h1{
+        font-size: 25px;
+    }
+
+    #main3btm #txt #ring{
+        top: 19%;
+        width: 83%;
+        height: 2px;
+        left: 8%;
+    }
+
+    #main3btm #txt p{
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    #main3btm #txt button{
+        font-size: 8px;
+        letter-spacing: 2px;
+        padding: 10px 15px;
+    }
+
+    #main3btm #cards img{
+        height: 130px;
+    }
+
+    #main3btm #cards #img2{
+        display: none;
+    }
+
+    #main3 #mag{
+        /* display: initial; */
+        height: 70vh;
+        width: 100%;
+    }
+
+    #main3 #mag #txt{
+        margin-bottom: 11px;
+    }
+
+    #main3 #mag #txt h1{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    #main3 #mag #txt p{
+        font-size: 8px;
+    }
+
+    #main3 #mag #txt h3{
+        font-size: 10px;
+    }
+
+    #main3 #mag #txt  #line{
+        width: 100%;
+        margin-left: initial;
+        height: 1.5px;
+    }
+
+    #main3 #mag #cards{
+        flex-direction: column;
+        width: 72%;
+    }
+
+    #main3 #mag .card{
+        width: 41vh;
+        height: 47vh;
+    }
+
+    #mag .card h4{
+       font-size: 15px;
+       margin-top: 10px;
+    } 
+
+    #mag #c2{
+        display: none;
+    }
+
+    #mag #c3{
+        display: none;
+    }
+
+    #about #icons{
+        width: 80%;
+    }
+
+    #about #para #p2{
+        display: initial;
+        font-size: 13px;
+    }
+
+    #about #para #p1{
+        display: none;
+    }
+
+    #about #para h4{
+        font-size: 13px;
+    }
+ 
+    #about h1{
+        letter-spacing: 20px;
+        font-size: 25px;
+        margin-left: 20px;
+
+    }
+
+}
